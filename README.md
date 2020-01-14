@@ -11,7 +11,7 @@ Terrafrom code that provison the EC2 node with all required tools, softwares and
 
 
 ### Run Terrafrom 
-* cd to the directory and make sure you have all 4 files:
+* cd to the directory and make sure you have all files:
 * Run the following commands:
 ```terrafrom
 terrafrom init
