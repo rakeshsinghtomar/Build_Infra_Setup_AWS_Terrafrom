@@ -21,6 +21,6 @@ terrafrom apply
 
 After terrafrom apply you can find the new provisoned server in EC2 dashboard and Jenkins/sonar can be reach thoough IPv4 Public IP.
 ```
-Jenkins URL :  publicIP:8080 (Ex: 10.10.10.10:8080)
-Sonar URL   :  publicIP:9000 (Ex. 10.10.10.10:9000)
+Jenkins URL :  Public_IP_of_EC2_Node:8080 (Ex: 10.10.10.10:8080)
+Sonar URL   :  Public_IP_of_EC2_Node:9000 (Ex. 10.10.10.10:9000)
 ```
