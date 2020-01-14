@@ -16,7 +16,7 @@ variable "key-nameForInstance"{
 }
 
 variable "Instance_name"{
-        default="Jenkins_tomar_Server"
+        default="Build_Server"
 }
 
 variable "connectionType"{
@@ -25,10 +25,6 @@ variable "connectionType"{
 
 variable "userNameForConnection"{
 	default="ec2-user"
-}
-
-variable "pemFileLocation"{
-	default="C:/Users/ratomar/Downloads/rakeshaws.pem"
 }
 
 variable "conn_timeout"{
