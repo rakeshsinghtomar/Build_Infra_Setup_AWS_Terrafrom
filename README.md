@@ -10,3 +10,12 @@ Terrafrom code that provison the EC2 node with all required tools, softwares and
 * export your AWS keys on your local box
 
 
+### Run Terrafrom 
+* cd to the directory and make sure you have all 4 files:
+* Run the following commands:
+```terrafrom
+terrafrom init
+terrafrom plan
+terrafrom apply
+```
+
